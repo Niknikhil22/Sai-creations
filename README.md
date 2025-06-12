@@ -28,3 +28,25 @@ Welcome to the official repository of **Sai Creations Pvt. Ltd.**, a dynamic cos
 
 ## 📁 Project Structure
 
+Sai-creations/
+├── static/
+│ └── images/ # Product images
+├── templates/
+│ └── index.html # Home page layout
+├── app.py # Flask backend
+├── products.xlsx # Product list with description and pricing
+├── README.md # Project documentation
+└── requirements.txt # Python dependencies
+
+
+---
+
+## 🔑 Features
+
+- 💄 Showcases a wide range of cosmetic products
+- 📸 Product images and brief descriptions
+- 📋 Backend powered by Excel and Python
+- 💻 Responsive frontend layout
+- 🧩 Scalable for future e-commerce integration
+
+---
