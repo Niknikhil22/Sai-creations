@@ -1,0 +1,133 @@
+.gradient-background {
+  background: linear-gradient(300deg, #FBE8D3, #B76E79, #EFE1D6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.home {
+    background-color: #FBE8D3;
+}
+
+.home-heading {
+  font-size: 2.5rem;
+  color:  #B76E79;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+header h5 {
+  color:  #B76E79;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero img {
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #FAF8F2;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.products {
+    background-color: #FBE8D3;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.products-heading {
+    font-size: 2.5rem;
+  color:  #B76E79;
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.product-block {
+    background-color: 	#EFE1D6;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.product-block:hover, 
+.product-block:focus {
+  background-color: #AEC6CF;
+}
+
+.product-block > div {
+    margin-bottom: 1rem;
+    overflow-wrap: break-word;
+}
+
+.products h3 {
+  color:#B76E79;
+  font-family: "Playfair Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.products li {
+    color: #3E3E3E;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+    color: #FAF8F2;
+}
+
+footer li p{
+  color: #3E3E3E;
+  font-size: larger;
+}
+
+@media (min-width: 992px) {
+    .product-grid {
+        display: grid;
+        grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .product-block > div {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 992px) {
+  .hero img {
+    height: 250px;
+    margin-bottom: 40px;
+  }
+}
