@@ -1,6 +1,6 @@
 # Sai Creations - Cosmetic Product Showcase Website
 
-Welcome to the official repository of **Sai Creations Pvt. Ltd.**, a dynamic cosmetic products company. This web-based project is designed to present all products with detailed descriptions and images, offering a professional digital presence for the brand.
+Welcome to the official repository of **Sai Creations**, a dynamic cosmetic products company. This web-based project is designed to present all products with detailed descriptions and images, offering a professional digital presence for the brand.
 
 ## 🌐 Live Demo
 
